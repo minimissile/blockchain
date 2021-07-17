@@ -1,6 +1,6 @@
-const Tx = require('ethereumjs-tx').Transaction
+import {Transaction as Tx} from 'ethereumjs-tx'
+import Web3 from "web3";
 
-const Web3 = require('web3')
 const RPC_URL = "https://ropsten.infura.io/v3/2c2a9b9cfe2541809d2c6ff9db7202a0"
 
 const web3 = new Web3(RPC_URL)

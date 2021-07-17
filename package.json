@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bignumber.js": "^9.0.1",
+    "ethereumjs-tx": "^2.1.2",
     "ethers": "^5.4.1",
     "web3": "^1.4.0"
   }
