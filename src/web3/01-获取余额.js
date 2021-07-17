@@ -1,4 +1,4 @@
-const Web3 = require('web3')
+import Web3 from "web3";
 
 // const RPC_URL = "https://mainnet.infura.io/v3/2c2a9b9cfe2541809d2c6ff9db7202a0"
 const RPC_URL = "https://ropsten.infura.io/v3/2c2a9b9cfe2541809d2c6ff9db7202a0"
