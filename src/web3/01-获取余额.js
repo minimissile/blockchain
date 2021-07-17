@@ -6,7 +6,8 @@ const RPC_URL = "https://ropsten.infura.io/v3/2c2a9b9cfe2541809d2c6ff9db7202a0"
 const web3 = new Web3(RPC_URL)
 
 // 以太坊钱包地址
-const address = "0x5ae4517C0316263Cb77CC27fE68BafdA00DF62d6"
+// const address = "0x5ae4517C0316263Cb77CC27fE68BafdA00DF62d6"
+const address = "0x083D5C03c8e17BbF70805C44d49886D7C0B93A02"
 
 web3.eth.getBalance(address, (err, wei) => {
     // 余额单位从wei转换为ether
