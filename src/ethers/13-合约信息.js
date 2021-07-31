@@ -26,7 +26,7 @@ import {ethers} from 'ethers'
 
   const logs = await provider.getLogs(filter)
 
-  console.log(logs)
+  console.log(logs) 
   // [
   // {
   //   blockNumber: 3313426,
